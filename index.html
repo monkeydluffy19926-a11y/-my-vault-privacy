@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy information for the personal My Vault Pinterest integration.">
+  <title>Privacy Policy | My Vault Pinterest Integration</title>
+  <style>
+    :root{color-scheme:light;--ink:#202b2b;--muted:#596767;--paper:#fffefa;--ground:#e9f0ed;--accent:#b6314b;--line:#d6e0db}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--ground);color:var(--ink);font:16px/1.65 Georgia,'Times New Roman',serif}
+    main{width:min(760px,calc(100% - 32px));margin:40px auto;background:var(--paper);padding:clamp(24px,6vw,56px);border-top:6px solid var(--accent)}
+    h1,h2{font-family:system-ui,sans-serif;line-height:1.2;letter-spacing:0}
+    h1{font-size:clamp(30px,6vw,44px);margin:0 0 8px}
+    h2{font-size:21px;margin:32px 0 8px}
+    p,li{max-width:68ch}
+    .date{color:var(--muted);font:14px system-ui,sans-serif}
+    a{color:#8e233a;overflow-wrap:anywhere}
+    .notice{padding:12px 16px;border-left:3px solid var(--accent);background:#f9eeee}
+    footer{margin-top:36px;padding-top:16px;border-top:1px solid var(--line);font:13px system-ui,sans-serif;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="date">My Vault Pinterest Integration · Effective October 3, 2026</p>
+
+    <p>This is a personal, locally run tool for viewing and managing Pinterest boards. It is operated by one individual and is not a public multi-user service.</p>
+
+    <h2>Information the integration accesses</h2>
+    <p>After you connect your Pinterest account and approve the requested permissions, the integration accesses board names, descriptions, privacy settings, and Pins on the boards you view. It uses this information to display your boards and Pin images and to create or update boards when you request those actions.</p>
+
+    <h2>How information is handled</h2>
+    <ul>
+      <li>The integration server runs on your own computer and listens only on its local network interface.</li>
+      <li>Pinterest access and refresh tokens are held in the server's memory and are not written to disk. Stopping the server clears them; you must connect again after restarting it.</li>
+      <li>A random, HTTP-only session cookie identifies your local sign-in session. It does not contain the Pinterest access token.</li>
+      <li>Board and Pin data is requested from Pinterest when you use the integration. The server does not store Pinterest board or Pin data in a database.</li>
+      <li>Pin images are loaded by your browser from Pinterest's image servers. Pinterest may receive the usual request information when your browser loads those images.</li>
+      <li>The separate My Vault app stores your own vault content in this browser's IndexedDB. The Pinterest integration does not upload that content to its server.</li>
+    </ul>
+
+    <h2>Sharing and retention</h2>
+    <p>The integration does not sell your information or send it to an analytics or advertising service. Pinterest handles information under its own privacy policy and platform terms. Local browser storage and the session cookie are managed by your browser; clearing browser data may remove them.</p>
+
+    <h2>Your choices</h2>
+    <p>You can disconnect from the Pinterest view in My Vault. You can also revoke this app's access in your Pinterest account settings. The integration is intended for use on the same computer where its local server is running; do not expose the server to the public internet.</p>
+
+    <h2>Contact</h2>
+    <p class="notice">Before publishing this page, replace this sentence with a contact email address or another reliable way to reach the app owner for privacy questions.</p>
+
+    <footer>This policy describes the personal My Vault Pinterest integration, not Pinterest itself. Pinterest's own terms and privacy policy continue to apply to your Pinterest account.</footer>
+  </main>
+</body>
+</html>
